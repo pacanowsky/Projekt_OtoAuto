@@ -122,6 +122,3 @@ Aplikacja OTOAUTO wspiera dwie główne role użytkowników:
 
 7. **Moje ogłoszenia (MyListings)**: Wyświetla listę ogłoszeń należących do zalogowanego sprzedawcy. Pozwala zarządzać ogłoszeniami (edytować, usuwać).
 
----
-Czy chcesz, abym dodał/a jakieś dodatkowe sekcje, takie jak licencja, sposób zgłaszania błędów lub kontakt? Możesz też wskazać, jeśli jakieś elementy wymagają bardziej szczegółowego opisu.
-
