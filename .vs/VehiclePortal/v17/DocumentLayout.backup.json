@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Konrad\\Desktop\\2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112213944_UpdateSeedListingsData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VehiclePortal\\Migrations\\20241112213944_UpdateSeedListingsData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112213329_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VehiclePortal\\Migrations\\20241112213329_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\data\\classifiedadsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\data\\classifiedadsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\migrations\\20241112171547_setdefaultisfeaturedtofalse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\migrations\\20241112171547_setdefaultisfeaturedtofalse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\migrations\\20241112185423_seedlistingsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\migrations\\20241112185423_seedlistingsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|c:\\users\\konrad\\desktop\\2\\vehicleportal\\migrations\\20241112200433_updateimagespaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AE2ACF-35D1-4C3B-80BA-E48DA4A509C7}|VehiclePortal\\VehiclePortal.csproj|solutionrelative:vehicleportal\\migrations\\20241112200433_updateimagespaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241112213944_UpdateSeedListingsData.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112213944_UpdateSeedListingsData.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Migrations\\20241112213944_UpdateSeedListingsData.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112213944_UpdateSeedListingsData.cs",
+              "RelativeToolTip": "VehiclePortal\\Migrations\\20241112213944_UpdateSeedListingsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T21:39:44.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241112213329_newmigration.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112213329_newmigration.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Migrations\\20241112213329_newmigration.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112213329_newmigration.cs",
+              "RelativeToolTip": "VehiclePortal\\Migrations\\20241112213329_newmigration.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T21:33:29.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "VehiclePortal\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "VehiclePortal\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T20:52:47.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241112200433_UpdateImagesPaths.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112200433_UpdateImagesPaths.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Migrations\\20241112200433_UpdateImagesPaths.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112200433_UpdateImagesPaths.cs",
+              "RelativeToolTip": "VehiclePortal\\Migrations\\20241112200433_UpdateImagesPaths.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T20:04:33.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VehiclePortal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VehiclePortal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T19:23:49.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241112185423_SeedListingsData.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112185423_SeedListingsData.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Migrations\\20241112185423_SeedListingsData.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112185423_SeedListingsData.cs",
+              "RelativeToolTip": "VehiclePortal\\Migrations\\20241112185423_SeedListingsData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T18:54:23.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Data\\ModelBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Data\\ModelBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Data\\ModelBuilderExtensions.cs",
+              "RelativeToolTip": "VehiclePortal\\Data\\ModelBuilderExtensions.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:59:14.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Models\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "VehiclePortal\\Models\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:33:06.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VehiclePortal\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:18:34.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241112171547_SetDefaultIsFeaturedToFalse.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112171547_SetDefaultIsFeaturedToFalse.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Migrations\\20241112171547_SetDefaultIsFeaturedToFalse.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Migrations\\20241112171547_SetDefaultIsFeaturedToFalse.cs",
+              "RelativeToolTip": "VehiclePortal\\Migrations\\20241112171547_SetDefaultIsFeaturedToFalse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:15:48.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Listing.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Models\\Listing.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Models\\Listing.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Models\\Listing.cs",
+              "RelativeToolTip": "VehiclePortal\\Models\\Listing.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvzkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:11:03.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\appsettings.json",
+              "RelativeDocumentMoniker": "VehiclePortal\\appsettings.json",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\appsettings.json",
+              "RelativeToolTip": "VehiclePortal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-12T16:55:30.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassifiedAdsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Data\\ClassifiedAdsDbContext.cs",
+              "RelativeDocumentMoniker": "VehiclePortal\\Data\\ClassifiedAdsDbContext.cs",
+              "ToolTip": "C:\\Users\\Konrad\\Desktop\\2\\VehiclePortal\\Data\\ClassifiedAdsDbContext.cs",
+              "RelativeToolTip": "VehiclePortal\\Data\\ClassifiedAdsDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:53:31.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

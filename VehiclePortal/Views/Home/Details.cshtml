@@ -1,0 +1,76 @@
+﻿@model VehiclePortal.Models.Listing
+
+@{
+    ViewData["Title"] = "Szczegóły ogłoszenia";
+}
+
+<h2 class="text-center">@Model.Title</h2>
+
+<div class="listing-details container">
+    <div class="row">
+        <div class="col-md-6">
+            <div id="listingCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    @if (Model.Images != null && Model.Images.Any())
+
+                    {
+                        @for (int i = 0; i < Model.Images.Count; i++)
+
+                        {
+                            <div class="carousel-item @(i == 0 ? "active" : "")">
+                                <img src="@Model.Images.ElementAt(i).Url" class="d-block w-100 rounded shadow" alt="Zdjęcie @i">
+                            </div>
+                        }
+                    }
+
+                    else
+
+                    {
+                        <div class="carousel-item active">
+                            <img src="@Model.StaticImagePath" class="d-block w-100 rounded shadow" alt="Placeholder Image">
+                        </div>
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#listingCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Poprzednie</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#listingCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Następne</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="mb-3">Szczegóły</h3>
+            <p><strong>Kategoria:</strong> @(Model.Category?.Name ?? "Brak kategorii")</p>
+            <p><strong>Opis:</strong> @Model.Description</p>
+            <p><strong>Cena:</strong> @Model.Price.ToString("C")</p>
+            <p><strong>Ogłoszenie wystawił:</strong> @(Model.User?.Email ?? "Brak danych")</p>
+            <p><strong>Data wystawienia:</strong> @Model.PostedDate.ToString("D")</p>
+
+            <p><strong>Rok produkcji:</strong> @Model.Vehicle?.Year</p>
+            <p><strong>VIN:</strong> @Model.Vehicle?.VIN</p>
+            <p><strong>Przebieg:</strong> @Model.Vehicle?.Mileage km</p>
+            <p><strong>Pojemność silnika:</strong> @Model.Vehicle?.EngineCapacity cc</p>
+            <p><strong>Data pierwszej rejestracji:</strong> @Model.Vehicle?.FirstRegistration?.ToString("D")</p>
+
+            <p class="@(Model.IsSold ? "text-danger" : "text-success")">
+                <strong>Status:</strong> @(Model.IsSold ? "Sprzedane" : "Dostępne")
+            </p>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <p><strong>Email:</strong> <a href="mailto:@Model.User?.Email">@Model.User?.Email</a></p>
+                <p><strong>Telefon:</strong> @Model.User?.PhoneNumber</p>
+            }
+            else
+            {
+                <p>Aby zobaczyć dane kontaktowe sprzedawcy, <a href="/Account/Login">zaloguj się</a>.</p>
+            }
+
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Powrót do ogłoszeń</a>
+        </div>
+    </div>
+</div>

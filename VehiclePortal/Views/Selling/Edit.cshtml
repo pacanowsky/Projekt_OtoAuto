@@ -1,0 +1,132 @@
+﻿@model VehiclePortal.Models.ViewModels.EditListingViewModel
+
+<h2>Edytuj Ogłoszenie</h2>
+
+<form asp-action="Edit" asp-controller="Selling" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- Basic Details -->
+    <div class="form-group">
+        <label asp-for="Title">Tytuł ogłoszenia</label>
+        <input asp-for="Title" class="form-control" placeholder="Wprowadź tytuł ogłoszenia, np. '2010 Toyota Camry'" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Opis</label>
+        <textarea asp-for="Description" class="form-control" placeholder="Opisz przedmiot szczegółowo"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price">Cena</label>
+        <input asp-for="Price" class="form-control" placeholder="Wprowadź cenę" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryId">Kategoria</label>
+        <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control">
+            <option value="">--Wybierz kategorię--</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <!-- Vehicle Details -->
+    <div class="form-group">
+        <label asp-for="Year">Rok produkcji</label>
+        <input asp-for="Year" class="form-control" placeholder="Wprowadź rok produkcji pojazdu" />
+        <span asp-validation-for="Year" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VIN">Numer VIN</label>
+        <input asp-for="VIN" class="form-control" placeholder="Wprowadź numer VIN pojazdu" />
+        <span asp-validation-for="VIN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Mileage">Przebieg (km)</label>
+        <input asp-for="Mileage" class="form-control" placeholder="Wprowadź przebieg pojazdu w km" />
+        <span asp-validation-for="Mileage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EngineCapacity">Pojemność silnika (cc)</label>
+        <input asp-for="EngineCapacity" class="form-control" placeholder="Wprowadź pojemność silnika w cm³" />
+        <span asp-validation-for="EngineCapacity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FirstRegistration">Data pierwszej rejestracji</label>
+        <input asp-for="FirstRegistration" type="date" class="form-control" />
+        <span asp-validation-for="FirstRegistration" class="text-danger"></span>
+    </div>
+
+    <!-- Listing Status -->
+    <div class="form-group form-check">
+        <input asp-for="IsFeatured" class="form-check-input" />
+        <label asp-for="IsFeatured" class="form-check-label">Wyróżnij to ogłoszenie</label>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="IsSold" class="form-check-input" />
+        <label asp-for="IsSold" class="form-check-label">Oznacz jako sprzedane</label>
+    </div>
+
+    <!-- Existing Images Section -->
+    <h4>Aktualne zdjęcia</h4>
+    @if (Model.Images != null && Model.Images.Any())
+    {
+        <div class="form-group">
+            <div class="row">
+                @for (int i = 0; i < Model.Images.Count; i++)
+                {
+                    <div class="col-md-3 position-relative" style="margin-bottom: 20px;">
+                        <div class="card">
+                            <img src="@Model.Images[i]" class="card-img-top" alt="Zdjęcie ogłoszenia" style="width: 100%; height: auto;">
+                            <div class="position-absolute" style="top: -10px; right: -10px;">
+                                <button type="button" class="btn btn-danger btn-sm delete-image-btn" data-image-index="@i">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Brak aktualnych zdjęć dla tego ogłoszenia.</p>
+    }
+
+    <!-- Add New Images -->
+    <div class="form-group">
+        <label for="newImages">Dodaj nowe zdjęcia (maksymalnie 10)</label>
+        <input type="file" name="NewImages" multiple class="form-control-file" />
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Zapisz zmiany</button>
+    <a asp-action="MyListings" class="btn btn-secondary">Anuluj</a>
+</form>
+
+@section Scripts {
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.delete-image-btn').click(function () {
+                const imageIndex = $(this).data('image-index');
+                $('<input>').attr({
+                    type: 'hidden',
+                    name: 'imagesToDelete',
+                    value: imageIndex
+                }).appendTo('form');
+                $(this).closest('.col-md-3').hide();
+            });
+        });
+    </script>
+}

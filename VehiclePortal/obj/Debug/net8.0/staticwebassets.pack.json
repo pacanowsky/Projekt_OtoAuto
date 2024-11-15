@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VehiclePortal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VehiclePortal.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\icons\\cleaning.png",
+      "PackagePath": "staticwebassets\\icons\\cleaning.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\icons\\mileage.png",
+      "PackagePath": "staticwebassets\\icons\\mileage.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\icons\\photos.png",
+      "PackagePath": "staticwebassets\\icons\\photos.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\icons\\ready.png",
+      "PackagePath": "staticwebassets\\icons\\ready.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\icons\\registration.png",
+      "PackagePath": "staticwebassets\\icons\\registration.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\icons\\valuation.png",
+      "PackagePath": "staticwebassets\\icons\\valuation.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\images\\listings\\bmw_x5_tire.jpg",
+      "PackagePath": "staticwebassets\\images\\listings\\bmw_x5_tire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\images\\listings\\ford_f150.jpg",
+      "PackagePath": "staticwebassets\\images\\listings\\ford_f150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\images\\listings\\harley_davidson.jpg",
+      "PackagePath": "staticwebassets\\images\\listings\\harley_davidson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\images\\listings\\toyota_camry.jpg",
+      "PackagePath": "staticwebassets\\images\\listings\\toyota_camry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\images\\selling.png",
+      "PackagePath": "staticwebassets\\images\\selling.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\1f1e21c2-8d59-4693-85a1-7fdee3f98713_logo.webp",
+      "PackagePath": "staticwebassets\\uploads\\1f1e21c2-8d59-4693-85a1-7fdee3f98713_logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\523d33f7-9c33-415e-a277-91a6fcc2d7ac_selling.png",
+      "PackagePath": "staticwebassets\\uploads\\523d33f7-9c33-415e-a277-91a6fcc2d7ac_selling.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\5d6350f5-ec2c-4aa6-89eb-008233c07127_logo.png",
+      "PackagePath": "staticwebassets\\uploads\\5d6350f5-ec2c-4aa6-89eb-008233c07127_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\63cafa3d-d4f8-4f2f-9fa0-54984fd59bf7_selling.png",
+      "PackagePath": "staticwebassets\\uploads\\63cafa3d-d4f8-4f2f-9fa0-54984fd59bf7_selling.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\7581b50c-a053-433f-94bc-065ad4f17aef_logo.png",
+      "PackagePath": "staticwebassets\\uploads\\7581b50c-a053-433f-94bc-065ad4f17aef_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\86adc215-5efe-4d0d-b66a-c3a8228956ec_selling.png",
+      "PackagePath": "staticwebassets\\uploads\\86adc215-5efe-4d0d-b66a-c3a8228956ec_selling.png"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\uploads\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\appsettings.json",
+      "PackagePath": "staticwebassets\\uploads\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Users\\pacan\\Downloads\\2\\VehiclePortal\\wwwroot\\uploads\\cf02c162-ad06-47d9-aaba-c890f22c4c78_logo.png",
+      "PackagePath": "staticwebassets\\uploads\\cf02c162-ad06-47d9-aaba-c890f22c4c78_logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VehiclePortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VehiclePortal.props",
+      "PackagePath": "build\\VehiclePortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VehiclePortal.props",
+      "PackagePath": "buildMultiTargeting\\VehiclePortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VehiclePortal.props",
+      "PackagePath": "buildTransitive\\VehiclePortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

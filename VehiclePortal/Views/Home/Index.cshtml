@@ -1,0 +1,60 @@
+﻿@model VehiclePortal.Models.ViewModels.HomeViewModel
+
+<h2>Wyszukaj pojazdy</h2>
+<form asp-action="Index" method="get" style="display: flex; align-items: center; margin-bottom: 20px;">
+    <input type="text" name="searchTerm" value="@Model.SearchTerm" class="form-control"
+           placeholder="Szukaj według tytułu lub opisu..." style="flex: 1; margin-right: 10px;">
+    <button type="submit" class="btn btn-primary" style="padding: 10px 20px;">Szukaj</button>
+</form>
+
+<h3>Wyróżnione oferty</h3>
+<div class="row">
+    @foreach (var listing in Model.FeaturedListings)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm border-0">
+                @if (listing.Images != null && listing.Images.Any())
+                {
+                    <img src="@listing.Images.First().Url" class="card-img-top" alt="Listing Image" style="height: 200px; object-fit: cover;" />
+                }
+                else
+                {
+                    <img src="@listing.StaticImagePath" class="card-img-top" alt="Placeholder Image" style="height: 200px; object-fit: cover;" />
+                }
+
+                <div class="card-body">
+                    <h5 class="card-title text-primary">@listing.Title</h5>
+                    <p class="card-text">@listing.Description</p>
+                    <p class="font-weight-bold">Cena: @string.Format("{0:N2} zł", listing.Price)</p>
+                    <a href="@Url.Action("Details", "Home", new { id = listing.Id })" class="btn btn-outline-primary w-100 mt-2">Zobacz szczegóły</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<h3>Wszystkie ogłoszenia</h3>
+<div class="row">
+    @foreach (var listing in Model.Listings)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm border-0">
+                @if (listing.Images != null && listing.Images.Any())
+                {
+                    <img src="@listing.Images.First().Url" class="card-img-top" alt="Listing Image" style="height: 200px; object-fit: cover;" />
+                }
+                else
+                {
+                    <img src="@listing.StaticImagePath" class="card-img-top" alt="Placeholder Image" style="height: 200px; object-fit: cover;" />
+                }
+
+                <div class="card-body">
+                    <h5 class="card-title text-primary">@listing.Title</h5>
+                    <p class="card-text">@listing.Description</p>
+                    <p class="font-weight-bold">Cena: @string.Format("{0:N2} zł", listing.Price)</p>
+                    <a href="@Url.Action("Details", "Home", new { id = listing.Id })" class="btn btn-outline-primary w-100 mt-2">Zobacz szczegóły</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

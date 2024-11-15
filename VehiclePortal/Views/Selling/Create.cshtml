@@ -1,0 +1,135 @@
+﻿@model VehiclePortal.Models.ViewModels.CreateListingViewModel
+
+<h2>Stwórz ogłoszenie</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Title">Tytuł ogłoszenia</label>
+        <input asp-for="Title" class="form-control" placeholder="Wprowadź tytuł ogłoszenia, np. '2010 Toyota Camry'" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Opis</label>
+        <textarea asp-for="Description" class="form-control" placeholder="Opisz przedmiot szczegółowo"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price">Cena (PLN)</label>
+        <input asp-for="Price" class="form-control" placeholder="Wprowadź cenę w PLN" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryId">Kategoria</label>
+        <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control">
+            <option value="">--Wybierz kategorię--</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <!-- Dodaj zdjęcia -->
+    <div class="form-group">
+        <label>Dodaj zdjęcia (maks. 10)</label>
+        <div id="imageUploadContainer">
+            <div class="image-upload">
+                <input type="file" name="Images" class="form-control-file" accept="image/*" onchange="previewImages()" />
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary mt-2" onclick="addImageField()" id="addImageButton">Dodaj kolejne zdjęcie</button>
+        <span class="text-danger" id="imageLimitWarning" style="display: none;">Można dodać maksymalnie 10 zdjęć.</span>
+    </div>
+
+    <!-- Podgląd przesłanych zdjęć -->
+    <div id="imagePreviewContainer" class="form-group" style="margin-top: 10px;">
+        <!-- Miniatury wgranych zdjęć pojawią się tutaj -->
+    </div>
+
+    <!-- Pojemność silnika -->
+    <div class="form-group">
+        <label asp-for="EngineCapacity">Pojemność silnika (cc)</label>
+        <input asp-for="EngineCapacity" class="form-control" placeholder="Wprowadź pojemność silnika w cm³" />
+        <span asp-validation-for="EngineCapacity" class="text-danger"></span>
+    </div>
+
+    <!-- Data pierwszej rejestracji -->
+    <div class="form-group">
+        <label asp-for="FirstRegistration">Pierwsza rejestracja</label>
+        <input asp-for="FirstRegistration" type="date" class="form-control" />
+        <span asp-validation-for="FirstRegistration" class="text-danger"></span>
+    </div>
+
+    <!-- Przebieg -->
+    <div class="form-group">
+        <label asp-for="Mileage">Przebieg (km)</label>
+        <input asp-for="Mileage" class="form-control" placeholder="Wprowadź przebieg pojazdu w km" />
+        <span asp-validation-for="Mileage" class="text-danger"></span>
+    </div>
+
+    <!-- VIN -->
+    <div class="form-group">
+        <label asp-for="VIN">Numer VIN</label>
+        <input asp-for="VIN" class="form-control" placeholder="Wprowadź numer VIN pojazdu" />
+        <span asp-validation-for="VIN" class="text-danger"></span>
+    </div>
+
+    <!-- Rok produkcji -->
+    <div class="form-group">
+        <label asp-for="Year">Rok produkcji</label>
+        <input asp-for="Year" class="form-control" placeholder="Wprowadź rok produkcji pojazdu" />
+        <span asp-validation-for="Year" class="text-danger"></span>
+    </div>
+
+    <!-- Wyróżnij ogłoszenie -->
+    <div class="form-group form-check">
+        <input asp-for="IsFeatured" class="form-check-input" />
+        <label asp-for="IsFeatured" class="form-check-label">Wyróżnij to ogłoszenie</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Dodaj ogłoszenie</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function addImageField() {
+            const imageUploadContainer = document.getElementById("imageUploadContainer");
+            const imageLimitWarning = document.getElementById("imageLimitWarning");
+
+            if (imageUploadContainer.children.length >= 10) {
+                imageLimitWarning.style.display = "block";
+                return;
+            }
+
+            const newImageUpload = document.createElement("div");
+            newImageUpload.className = "image-upload";
+            newImageUpload.innerHTML = '<input type="file" name="Images" class="form-control-file" accept="image/*" onchange="previewImages()" />';
+            imageUploadContainer.appendChild(newImageUpload);
+
+            if (imageUploadContainer.children.length >= 10) {
+                document.getElementById("addImageButton").style.display = "none";
+            }
+        }
+
+        function previewImages() {
+            const imagePreviewContainer = document.getElementById("imagePreviewContainer");
+            imagePreviewContainer.innerHTML = "";
+
+            const files = document.querySelectorAll('input[name="Images"]');
+            files.forEach(fileInput => {
+                if (fileInput.files && fileInput.files[0]) {
+                    const file = fileInput.files[0];
+                    const img = document.createElement("img");
+                    img.src = URL.createObjectURL(file);
+                    img.style.maxWidth = "100px";
+                    img.style.margin = "5px";
+                    img.className = "img-thumbnail";
+                    imagePreviewContainer.appendChild(img);
+                }
+            });
+        }
+    </script>
+}

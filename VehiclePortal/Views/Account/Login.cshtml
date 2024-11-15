@@ -1,0 +1,122 @@
+﻿@model VehiclePortal.Models.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="login-container">
+    <div class="login-header">
+        <ul class="nav">
+            <li class="nav-item active"><a href="#">Zaloguj się</a></li>
+            <!-- Skip "Create an account" -->
+        </ul>
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <form asp-action="Login" method="post" class="login-form">
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Wprowadź swój e-mail" required />
+        </div>
+        
+        <div class="form-group password-field">
+            <label for="password">Hasło</label>
+            <div class="input-group">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Wprowadź swoje hasło" required />
+            </div>
+        </div>
+
+        <div class="forgot-password">
+            <a href="#">Zapomniałeś hasła?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary login-button">Log in</button>
+
+        <div class="terms-text">
+            <p>Logując się, akceptujesz regulamin strony.</p>
+        </div>
+    </form>
+</div>
+
+<!-- Add custom CSS styles -->
+<style>
+    .login-container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .login-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .nav-item a {
+        font-size: 1.2rem;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .nav-item.active a {
+        font-weight: bold;
+    }
+
+    .progress-bar {
+        height: 4px;
+        background-color: #007bff;
+        margin-bottom: 20px;
+    }
+
+    .progress {
+        width: 50%; /* Half progress */
+        height: 100%;
+        background-color: #007bff;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .password-field .input-group-append {
+        cursor: pointer;
+    }
+
+    .forgot-password {
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+
+    .login-button {
+        background-color: #007bff;
+        width: 100%;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .terms-text {
+        margin-top: 20px;
+        font-size: 0.8rem;
+        color: #888;
+        text-align: center;
+    }
+</style>
+
+<!-- Optional JavaScript to toggle password visibility -->
+<script>
+    document.querySelector('.toggle-password').addEventListener('click', function () {
+        const passwordInput = document.querySelector('#password');
+        const icon = this.querySelector('i');
+        if (passwordInput.type === 'password') {
+            passwordInput.type = 'text';
+            icon.classList.remove('fa-eye');
+            icon.classList.add('fa-eye-slash');
+        } else {
+            passwordInput.type = 'password';
+            icon.classList.remove('fa-eye-slash');
+            icon.classList.add('fa-eye');
+        }
+    });
+</script>

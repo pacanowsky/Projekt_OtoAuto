@@ -1,0 +1,45 @@
+﻿@model IEnumerable<VehiclePortal.Models.Listing>
+
+@{
+    ViewData["Title"] = "Moje ogłoszenia";
+}
+
+<h2>Moje ogłoszenia</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Zdjęcie</th>
+            <th>Tytuł</th>
+            <th>Kategoria</th>
+            <th>Cena</th>
+            <th>Status</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var listing in Model)
+        {
+            <tr>
+                <td>
+                    @if (listing.Images != null && listing.Images.Any())
+                    {
+                        <img src="@listing.Images.First().Url" alt="Zdjęcie ogłoszenia" style="width: 100px; height: auto;" />
+                    }
+                    else
+                    {
+                        <img src="/images/placeholder.jpg" alt="Placeholder Image" style="width: 100px; height: auto;" />
+                    }
+                </td>
+                <td>@listing.Title</td>
+                <td>@listing.Category?.Name</td>
+                <td>@listing.Price.ToString("C")</td>
+                <td>@(listing.IsSold ? "Sprzedane" : "Dostępne")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@listing.Id" class="btn btn-primary">Edytuj</a>
+                    <a asp-action="Delete" asp-route-id="@listing.Id" class="btn btn-danger">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
